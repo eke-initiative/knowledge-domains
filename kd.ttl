@@ -1,5 +1,16 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/eke/kds>
+  a skos:ConceptScheme ;
+  dc:title "Knowledge Domains Classification"@en, "Classificazione dei domini di conoscenza"@it ;
+  rdfs:label "Knowledge Domains Classification"@en, "Classificazione dei domini di conoscenza"@it ;
+  dc:description "Controlled Vocabulary on the classification of Knowledge Domains."@en, "Vocabolario controllato della classificazione dei domini di conoscenza."@it ;
+  rdfs:comment "Controlled Vocabulary on the classification of Knowledge Domains."@en, "Vocabolario controllato della classificazione dei domini di conoscenza."@it ;
+  dc:issued "2022-06-28"^^xsd:date ;
+  dc:modified "2022-06-28"^^xsd:date .
 
 <https://w3id.org/eke/kds/40>
   skos:inScheme <https://w3id.org/eke/kds> ;
