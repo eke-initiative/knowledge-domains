@@ -1,468 +1,545 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<https://w3id.org/eke/kds>
-  a skos:ConceptScheme ;
-  dc:title "Knowledge Domains Classification"@en, "Classificazione dei domini di conoscenza"@it ;
-  rdfs:label "Knowledge Domains Classification"@en, "Classificazione dei domini di conoscenza"@it ;
-  dc:description "Controlled Vocabulary on the classification of Knowledge Domains."@en, "Vocabolario controllato della classificazione dei domini di conoscenza."@it ;
-  rdfs:comment "Controlled Vocabulary on the classification of Knowledge Domains."@en, "Vocabolario controllato della classificazione dei domini di conoscenza."@it ;
-  dc:issued "2022-06-28"^^xsd:date ;
-  dc:modified "2022-06-28"^^xsd:date .
 
 <https://w3id.org/eke/kds/40>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Law intended as the study of systems of rules created and enforced through social or governmental institutions to regulate behavior.", "Law" ;
+  rdfs:comment "Law intended as the study of systems of rules created and enforced through social or governmental institutions to regulate behavior." ;
   skos:definition "Law intended as the study of systems of rules created and enforced through social or governmental institutions to regulate behavior." ;
   skos:prefLabel "Law" ;
-  a skos:Concept .
+  rdfs:label "Law" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/35> .
 
 <https://w3id.org/eke/kds/12>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.", "Photography" ;
+  rdfs:comment "Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film." ;
   skos:definition "Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film." ;
   skos:prefLabel "Photography" ;
-  a skos:Concept .
+  rdfs:label "Photography" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/8> .
 
 <https://w3id.org/eke/kds/53>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Sport pertains to any form of competitive physical activity or game.", "Sport" ;
+  rdfs:comment "Sport pertains to any form of competitive physical activity or game." ;
   skos:definition "Sport pertains to any form of competitive physical activity or game." ;
   skos:prefLabel "Sport" ;
-  a skos:Concept .
+  rdfs:label "Sport" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/55> .
 
 <https://w3id.org/eke/kds/8>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Cultural heritage is the legacy of tangible and intangible heritage assets of a group or society that is inherited from past generations. Not all legacies of past generations are \"heritage\"; rather, heritage is a product of selection by society.", "Art & Culture" ;
+  rdfs:comment "Cultural heritage is the legacy of tangible and intangible heritage assets of a group or society that is inherited from past generations. Not all legacies of past generations are \"heritage\"; rather, heritage is a product of selection by society." ;
   skos:definition "Cultural heritage is the legacy of tangible and intangible heritage assets of a group or society that is inherited from past generations. Not all legacies of past generations are \"heritage\"; rather, heritage is a product of selection by society." ;
   skos:prefLabel "Art & Culture" ;
-  a skos:Concept .
+  rdfs:label "Art & Culture" ;
+  a skos:Concept ;
+  skos:narrower <https://w3id.org/eke/kds/10>, <https://w3id.org/eke/kds/11>, <https://w3id.org/eke/kds/14>, <https://w3id.org/eke/kds/12>, <https://w3id.org/eke/kds/9>, <https://w3id.org/eke/kds/13> ;
+  skos:broader <https://w3id.org/eke/kds/54> .
 
 <https://w3id.org/eke/kds/25>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Geography is a field of science devoted to the study of the lands, features, inhabitants, and phenomena of the Earth and planets.", "Geography" ;
+  rdfs:comment "Geography is a field of science devoted to the study of the lands, features, inhabitants, and phenomena of the Earth and planets." ;
   skos:definition "Geography is a field of science devoted to the study of the lands, features, inhabitants, and phenomena of the Earth and planets." ;
   skos:prefLabel "Geography" ;
-  a skos:Concept .
+  rdfs:label "Geography" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/20> .
 
 <https://w3id.org/eke/kds/38>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture.", "Fashion" ;
+  rdfs:comment "Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture." ;
   skos:definition "Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture." ;
   skos:prefLabel "Fashion" ;
-  a skos:Concept .
+  rdfs:label "Fashion" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/35> .
 
 <https://w3id.org/eke/kds/2>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Alimentation is the basic science and applied science of food; its scope starts at overlap with agricultural science and nutritional science and leads through the scientific aspects of food safety and food processing, informing the development of food technology.", "Alimentation" ;
+  rdfs:comment "Alimentation is the basic science and applied science of food; its scope starts at overlap with agricultural science and nutritional science and leads through the scientific aspects of food safety and food processing, informing the development of food technology." ;
   skos:definition "Alimentation is the basic science and applied science of food; its scope starts at overlap with agricultural science and nutritional science and leads through the scientific aspects of food safety and food processing, informing the development of food technology." ;
   skos:prefLabel "Alimentation" ;
-  a skos:Concept .
+  rdfs:label "Alimentation" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/0> .
 
 <https://w3id.org/eke/kds/60>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "An academy is an institution of secondary or tertiary higher learning, research, or honorary membership. ", "Scientific Research & Academy" ;
+  rdfs:comment "An academy is an institution of secondary or tertiary higher learning, research, or honorary membership. " ;
   skos:definition "An academy is an institution of secondary or tertiary higher learning, research, or honorary membership. " ;
   skos:prefLabel "Scientific Research & Academy" ;
+  rdfs:label "Scientific Research & Academy" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/32>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Psychology is the science of mind and behavior. ", "Psychology" ;
+  rdfs:comment "Psychology is the science of mind and behavior. " ;
   skos:definition "Psychology is the science of mind and behavior. " ;
   skos:prefLabel "Psychology" ;
-  a skos:Concept .
+  rdfs:label "Psychology" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/57> .
 
 <https://w3id.org/eke/kds/45>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Human sexuality is the way people experience and express themselves sexually.", "Sexuality" ;
+  rdfs:comment "Human sexuality is the way people experience and express themselves sexually." ;
   skos:definition "Human sexuality is the way people experience and express themselves sexually." ;
   skos:prefLabel "Sexuality" ;
-  a skos:Concept .
+  rdfs:label "Sexuality" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/35> .
 
 <https://w3id.org/eke/kds/17>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Bibliography is traditionally the academic study of books as physical, cultural objects.", "Bibliography" ;
+  rdfs:comment "Bibliography is traditionally the academic study of books as physical, cultural objects." ;
   skos:definition "Bibliography is traditionally the academic study of books as physical, cultural objects." ;
   skos:prefLabel "Bibliography" ;
+  rdfs:label "Bibliography" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/58>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The union of Physics and Astronomy domains.", "Physics, Astronomy" ;
+  rdfs:comment "The union of Physics and Astronomy domains." ;
   skos:definition "The union of Physics and Astronomy domains." ;
   skos:prefLabel "Physics, Astronomy" ;
-  a skos:Concept .
+  rdfs:label "Physics, Astronomy" ;
+  a skos:Concept ;
+  skos:narrower <https://w3id.org/eke/kds/16>, <https://w3id.org/eke/kds/31> ;
+  skos:broader <https://w3id.org/eke/kds/64> .
 
 <https://w3id.org/eke/kds/11>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Music is the art of arranging sounds in time through the elements of melody, harmony, rhythm, and timbre.", "Music" ;
+  rdfs:comment "Music is the art of arranging sounds in time through the elements of melody, harmony, rhythm, and timbre." ;
   skos:definition "Music is the art of arranging sounds in time through the elements of melody, harmony, rhythm, and timbre." ;
   skos:prefLabel "Music" ;
-  a skos:Concept .
+  rdfs:label "Music" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/8> .
 
 <https://w3id.org/eke/kds/52>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Transport is the movement of humans, animals, and goods from one location to another.", "Transport" ;
+  rdfs:comment "Transport is the movement of humans, animals, and goods from one location to another." ;
   skos:definition "Transport is the movement of humans, animals, and goods from one location to another." ;
   skos:prefLabel "Transport" ;
-  a skos:Concept .
+  rdfs:label "Transport" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/35> .
 
 <https://w3id.org/eke/kds/7>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Archaeology or archeology is the study of human activity through the recovery and analysis of material culture.", "Archaeology" ;
+  rdfs:comment "Archaeology or archeology is the study of human activity through the recovery and analysis of material culture." ;
   skos:definition "Archaeology or archeology is the study of human activity through the recovery and analysis of material culture." ;
   skos:prefLabel "Archaeology" ;
-  a skos:Concept .
+  rdfs:label "Archaeology" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/54> .
 
 <https://w3id.org/eke/kds/24>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Paleontology is the scientific study of life that existed prior to, and sometimes including, the start of the Holocene epoch.", "Paleontology" ;
+  rdfs:comment "Paleontology is the scientific study of life that existed prior to, and sometimes including, the start of the Holocene epoch." ;
   skos:definition "Paleontology is the scientific study of life that existed prior to, and sometimes including, the start of the Holocene epoch." ;
   skos:prefLabel "Paleontology" ;
-  a skos:Concept .
+  rdfs:label "Paleontology" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/20> .
 
 <https://w3id.org/eke/kds/37>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Economy studies the practices, discourses, and material expressions associated with the production, use, and management of scarce resources.", "Economy" ;
+  rdfs:comment "Economy studies the practices, discourses, and material expressions associated with the production, use, and management of scarce resources." ;
   skos:definition "Economy studies the practices, discourses, and material expressions associated with the production, use, and management of scarce resources." ;
   skos:prefLabel "Economy" ;
-  a skos:Concept .
+  rdfs:label "Economy" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/35> .
 
 <https://w3id.org/eke/kds/1>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Agriculture is the practice of cultivating plants and livestock.", "Agriculture" ;
+  rdfs:comment "Agriculture is the practice of cultivating plants and livestock." ;
   skos:definition "Agriculture is the practice of cultivating plants and livestock." ;
   skos:prefLabel "Agriculture" ;
-  a skos:Concept .
+  rdfs:label "Agriculture" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/0> .
 
 <https://w3id.org/eke/kds/31>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.", "Physics" ;
+  rdfs:comment "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force." ;
   skos:definition "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force." ;
   skos:prefLabel "Physics" ;
-  a skos:Concept .
+  rdfs:label "Physics" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/58> .
 
 <https://w3id.org/eke/kds/44>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Political science is the scientific study of politics. It is a social science dealing with systems of governance and power, and the analysis of political activities, political thought, political behavior, and associated constitutions and laws. t comprises numerous subfields, including comparative politics, political economy, international relations, political philosophy, public administration, public policy, gender and politics, and political methodology. ", "Political Science" ;
+  rdfs:comment "Political science is the scientific study of politics. It is a social science dealing with systems of governance and power, and the analysis of political activities, political thought, political behavior, and associated constitutions and laws. t comprises numerous subfields, including comparative politics, political economy, international relations, political philosophy, public administration, public policy, gender and politics, and political methodology. " ;
   skos:definition "Political science is the scientific study of politics. It is a social science dealing with systems of governance and power, and the analysis of political activities, political thought, political behavior, and associated constitutions and laws. t comprises numerous subfields, including comparative politics, political economy, international relations, political philosophy, public administration, public policy, gender and politics, and political methodology. " ;
   skos:prefLabel "Political Science" ;
-  a skos:Concept .
+  rdfs:label "Political Science" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/35> .
 
 <https://w3id.org/eke/kds/16>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Astronomy is a natural science that studies celestial objects and phenomena.", "Astronomy" ;
+  rdfs:comment "Astronomy is a natural science that studies celestial objects and phenomena." ;
   skos:definition "Astronomy is a natural science that studies celestial objects and phenomena." ;
   skos:prefLabel "Astronomy" ;
-  a skos:Concept .
+  rdfs:label "Astronomy" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/58> .
 
 <https://w3id.org/eke/kds/57>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The union of the Philosophy and Psychology domains.", "Phylosophy, Psychology" ;
+  rdfs:comment "The union of the Philosophy and Psychology domains." ;
   skos:definition "The union of the Philosophy and Psychology domains." ;
   skos:prefLabel "Phylosophy, Psychology" ;
-  a skos:Concept .
+  rdfs:label "Phylosophy, Psychology" ;
+  a skos:Concept ;
+  skos:narrower <https://w3id.org/eke/kds/32>, <https://w3id.org/eke/kds/30> .
 
 <https://w3id.org/eke/kds/29>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Mathematics includes the study of such topics as numbers, formulas and related structures (algebra), shapes and spaces in which they are contained (geometry), and quantities and their changes (calculus and analysis).", "Mathematics" ;
+  rdfs:comment "Mathematics includes the study of such topics as numbers, formulas and related structures (algebra), shapes and spaces in which they are contained (geometry), and quantities and their changes (calculus and analysis)." ;
   skos:definition "Mathematics includes the study of such topics as numbers, formulas and related structures (algebra), shapes and spaces in which they are contained (geometry), and quantities and their changes (calculus and analysis)." ;
   skos:prefLabel "Mathematics" ;
-  a skos:Concept .
+  rdfs:label "Mathematics" ;
+  a skos:Concept ;
+  skos:broader <https://w3id.org/eke/kds/64> .
 
 <https://w3id.org/eke/kds/10>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Drawing is a form of visual art in which an artist uses instruments to mark paper or other two-dimensional surface.", "Drawing" ;
+  rdfs:comment "Drawing is a form of visual art in which an artist uses instruments to mark paper or other two-dimensional surface." ;
   skos:definition "Drawing is a form of visual art in which an artist uses instruments to mark paper or other two-dimensional surface." ;
   skos:prefLabel "Drawing" ;
+  rdfs:label "Drawing" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/51>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Tourism is travel for pleasure or business; also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours.", "Tourism" ;
+  rdfs:comment "Tourism is travel for pleasure or business; also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours." ;
   skos:definition "Tourism is travel for pleasure or business; also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours." ;
   skos:prefLabel "Tourism" ;
+  rdfs:label "Tourism" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/6>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Medicine is the science and practice of caring for a patient, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. ", "Medicine" ;
+  rdfs:comment "Medicine is the science and practice of caring for a patient, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. " ;
   skos:definition "Medicine is the science and practice of caring for a patient, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. " ;
   skos:prefLabel "Medicine" ;
+  rdfs:label "Medicine" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/23>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Oceanography is the scientific study of the ocean. ", "Oceanography" ;
+  rdfs:comment "Oceanography is the scientific study of the ocean. " ;
   skos:definition "Oceanography is the scientific study of the ocean. " ;
   skos:prefLabel "Oceanography" ;
+  rdfs:label "Oceanography" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/64>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Pure Science is a type of scientific research with the aim of improving scientific theories for better understanding and prediction of natural or other phenomena.", "Pure Science" ;
+  rdfs:comment "Pure Science is a type of scientific research with the aim of improving scientific theories for better understanding and prediction of natural or other phenomena." ;
   skos:definition "Pure Science is a type of scientific research with the aim of improving scientific theories for better understanding and prediction of natural or other phenomena." ;
   skos:prefLabel "Pure Science" ;
+  rdfs:label "Pure Science" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/36>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Anthropology is the scientific study of humanity, concerned with human behavior, human biology, cultures, societies and linguistics, in both the present and past, including past human species.", "Anthropology" ;
+  rdfs:comment "Anthropology is the scientific study of humanity, concerned with human behavior, human biology, cultures, societies and linguistics, in both the present and past, including past human species." ;
   skos:definition "Anthropology is the scientific study of humanity, concerned with human behavior, human biology, cultures, societies and linguistics, in both the present and past, including past human species." ;
   skos:prefLabel "Anthropology" ;
+  rdfs:label "Anthropology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/49>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Telecommunication is the transmission of information by various types of technologies over wire, radio, optical, or other electromagnetic systems.", "Telecommunication(telegraphy, telephony, networking)" ;
+  rdfs:comment "Telecommunication is the transmission of information by various types of technologies over wire, radio, optical, or other electromagnetic systems." ;
   skos:definition "Telecommunication is the transmission of information by various types of technologies over wire, radio, optical, or other electromagnetic systems." ;
   skos:prefLabel "Telecommunication(telegraphy, telephony, networking)" ;
+  rdfs:label "Telecommunication(telegraphy, telephony, networking)" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/0>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Applied science is the use of the scientific method and knowledge obtained via conclusions from the method to attain practical goals. It includes a broad range of disciplines such as engineering and medicine.", "Applied Science" ;
+  rdfs:comment "Applied science is the use of the scientific method and knowledge obtained via conclusions from the method to attain practical goals. It includes a broad range of disciplines such as engineering and medicine." ;
   skos:definition "Applied science is the use of the scientific method and knowledge obtained via conclusions from the method to attain practical goals. It includes a broad range of disciplines such as engineering and medicine." ;
   skos:prefLabel "Applied Science" ;
+  rdfs:label "Applied Science" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/30>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Philosophy is the study of general and fundamental questions, such as those about existence, reason, knowledge, values, mind, and language.", "Philosophy" ;
+  rdfs:comment "Philosophy is the study of general and fundamental questions, such as those about existence, reason, knowledge, values, mind, and language." ;
   skos:definition "Philosophy is the study of general and fundamental questions, such as those about existence, reason, knowledge, values, mind, and language." ;
   skos:prefLabel "Philosophy" ;
+  rdfs:label "Philosophy" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/43>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Pedagogy, taken as an academic discipline, is the study of how knowledge and skills are imparted in an educational context, and it considers the interactions that take place during learning. ", "Pedagogy" ;
+  rdfs:comment "Pedagogy, taken as an academic discipline, is the study of how knowledge and skills are imparted in an educational context, and it considers the interactions that take place during learning. " ;
   skos:definition "Pedagogy, taken as an academic discipline, is the study of how knowledge and skills are imparted in an educational context, and it considers the interactions that take place during learning. " ;
   skos:prefLabel "Pedagogy" ;
+  rdfs:label "Pedagogy" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/15>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Astrology is a pseudoscience that claims to discern information about human affairs and terrestrial events by studying the movements and relative positions of celestial objects.", "Astrology" ;
+  rdfs:comment "Astrology is a pseudoscience that claims to discern information about human affairs and terrestrial events by studying the movements and relative positions of celestial objects." ;
   skos:definition "Astrology is a pseudoscience that claims to discern information about human affairs and terrestrial events by studying the movements and relative positions of celestial objects." ;
   skos:prefLabel "Astrology" ;
+  rdfs:label "Astrology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/56>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The union of the Transport and Tourism domains.", "Transport, Travel" ;
+  rdfs:comment "The union of the Transport and Tourism domains." ;
   skos:definition "The union of the Transport and Tourism domains." ;
   skos:prefLabel "Transport, Travel" ;
+  rdfs:label "Transport, Travel" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/28>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Writings specifically considered to be an art form, especially prose fiction, drama, and poetry.", "Literature" ;
+  rdfs:comment "Writings specifically considered to be an art form, especially prose fiction, drama, and poetry." ;
   skos:definition "Writings specifically considered to be an art form, especially prose fiction, drama, and poetry." ;
   skos:prefLabel "Literature" ;
+  rdfs:label "Literature" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/50>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The study of mass media and its influence. ", "Mediology(tv, radio, newspapers)" ;
+  rdfs:comment "The study of mass media and its influence. " ;
   skos:definition "The study of mass media and its influence. " ;
   skos:prefLabel "Mediology(tv, radio, newspapers)" ;
+  rdfs:label "Mediology(tv, radio, newspapers)" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/5>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings.", "Engineering" ;
+  rdfs:comment "Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings." ;
   skos:definition "Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings." ;
   skos:prefLabel "Engineering" ;
+  rdfs:label "Engineering" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/22>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Meteorology is a branch of the atmospheric sciences (which include atmospheric chemistry and atmospheric physics), with a major focus on weather forecasting. ", "Meteorology" ;
+  rdfs:comment "Meteorology is a branch of the atmospheric sciences (which include atmospheric chemistry and atmospheric physics), with a major focus on weather forecasting. " ;
   skos:definition "Meteorology is a branch of the atmospheric sciences (which include atmospheric chemistry and atmospheric physics), with a major focus on weather forecasting. " ;
   skos:prefLabel "Meteorology" ;
+  rdfs:label "Meteorology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/63>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The life science category comprises biological and biochemical information, drug-related data, and information about species and their habitats.", "Life Science" ;
+  rdfs:comment "The life science category comprises biological and biochemical information, drug-related data, and information about species and their habitats." ;
   skos:definition "The life science category comprises biological and biochemical information, drug-related data, and information about species and their habitats." ;
   skos:prefLabel "Life Science" ;
+  rdfs:label "Life Science" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/35>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Social science is the branch of science devoted to the study of societies and the relationships among individuals within those societies.", "Social Science" ;
+  rdfs:comment "Social science is the branch of science devoted to the study of societies and the relationships among individuals within those societies." ;
   skos:definition "Social science is the branch of science devoted to the study of societies and the relationships among individuals within those societies." ;
   skos:prefLabel "Social Science" ;
+  rdfs:label "Social Science" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/48>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "A social network is a social structure made up of a set of social actors (such as individuals or organizations), sets of dyadic ties, and other social interactions between actors.", "Social Networking" ;
+  rdfs:comment "A social network is a social structure made up of a set of social actors (such as individuals or organizations), sets of dyadic ties, and other social interactions between actors." ;
   skos:definition "A social network is a social structure made up of a set of social actors (such as individuals or organizations), sets of dyadic ties, and other social interactions between actors." ;
   skos:prefLabel "Social Networking" ;
+  rdfs:label "Social Networking" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/42>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Naval Science is the study of naval forces.", "Naval Science" ;
+  rdfs:comment "Naval Science is the study of naval forces." ;
   skos:definition "Naval Science is the study of naval forces." ;
   skos:prefLabel "Naval Science" ;
+  rdfs:label "Naval Science" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/14>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Theatre or theater is a collaborative form of performing art that uses live performers, usually actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage. ", "Theatre" ;
+  rdfs:comment "Theatre or theater is a collaborative form of performing art that uses live performers, usually actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage. " ;
   skos:definition "Theatre or theater is a collaborative form of performing art that uses live performers, usually actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage. " ;
   skos:prefLabel "Theatre" ;
+  rdfs:label "Theatre" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/55>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The union of Recreation and Sport domains", "Sport, Recreation" ;
+  rdfs:comment "The union of Recreation and Sport domains" ;
   skos:definition "The union of Recreation and Sport domains" ;
   skos:prefLabel "Sport, Recreation" ;
+  rdfs:label "Sport, Recreation" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/27>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Linguistics is the scientific study of language.", "Linguistics" ;
+  rdfs:comment "Linguistics is the scientific study of language." ;
   skos:definition "Linguistics is the scientific study of language." ;
   skos:prefLabel "Linguistics" ;
+  rdfs:label "Linguistics" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/4>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Computer science is the study of computation, automation, and information.", "Computer Science" ;
+  rdfs:comment "Computer science is the study of computation, automation, and information." ;
   skos:definition "Computer science is the study of computation, automation, and information." ;
   skos:prefLabel "Computer Science" ;
+  rdfs:label "Computer Science" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/21>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Geology is a branch of Earth science concerned with both the liquid and solid Earth, the rocks of which it is composed, and the processes by which they change over time. ", "Geology" ;
+  rdfs:comment "Geology is a branch of Earth science concerned with both the liquid and solid Earth, the rocks of which it is composed, and the processes by which they change over time. " ;
   skos:definition "Geology is a branch of Earth science concerned with both the liquid and solid Earth, the rocks of which it is composed, and the processes by which they change over time. " ;
   skos:prefLabel "Geology" ;
+  rdfs:label "Geology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/62>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Technology is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation.", "Technology" ;
+  rdfs:comment "Technology is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation." ;
   skos:definition "Technology is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation." ;
   skos:prefLabel "Technology" ;
+  rdfs:label "Technology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/34>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Religion is a social-cultural system of designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that relates humanity to supernatural, transcendental, and spiritual elements.", "Religion" ;
+  rdfs:comment "Religion is a social-cultural system of designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that relates humanity to supernatural, transcendental, and spiritual elements." ;
   skos:definition "Religion is a social-cultural system of designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that relates humanity to supernatural, transcendental, and spiritual elements." ;
   skos:prefLabel "Religion" ;
+  rdfs:label "Religion" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/47>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Sociology is a social science that focuses on society, human social behaviour, patterns of social relationships, social interaction, and aspects of culture associated with everyday life.", "Sociology" ;
+  rdfs:comment "Sociology is a social science that focuses on society, human social behaviour, patterns of social relationships, social interaction, and aspects of culture associated with everyday life." ;
   skos:definition "Sociology is a social science that focuses on society, human social behaviour, patterns of social relationships, social interaction, and aspects of culture associated with everyday life." ;
   skos:prefLabel "Sociology" ;
+  rdfs:label "Sociology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/19>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Chemistry is the scientific study of the properties and behavior of matter.", "Chemistry" ;
+  rdfs:comment "Chemistry is the scientific study of the properties and behavior of matter." ;
   skos:definition "Chemistry is the scientific study of the properties and behavior of matter." ;
   skos:prefLabel "Chemistry" ;
+  rdfs:label "Chemistry" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/41>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Military science is the study of military processes, institutions, and behavior, along with the study of warfare, and the theory and application of organized coercive force.", "Military" ;
+  rdfs:comment "Military science is the study of military processes, institutions, and behavior, along with the study of warfare, and the theory and application of organized coercive force." ;
   skos:definition "Military science is the study of military processes, institutions, and behavior, along with the study of warfare, and the theory and application of organized coercive force." ;
   skos:prefLabel "Military" ;
+  rdfs:label "Military" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/13>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Plastic arts are art forms which involve physical manipulation of a plastic medium by molding or modeling such as sculpture or ceramics.", "Plastic Arts" ;
+  rdfs:comment "Plastic arts are art forms which involve physical manipulation of a plastic medium by molding or modeling such as sculpture or ceramics." ;
   skos:definition "Plastic arts are art forms which involve physical manipulation of a plastic medium by molding or modeling such as sculpture or ceramics." ;
   skos:prefLabel "Plastic Arts" ;
+  rdfs:label "Plastic Arts" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/54>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The union of Art, Architecture and Archeology domains", "Art, architecture, and archaeology" ;
+  rdfs:comment "The union of Art, Architecture and Archeology domains" ;
   skos:definition "The union of Art, Architecture and Archeology domains" ;
   skos:prefLabel "Art, architecture, and archaeology" ;
+  rdfs:label "Art, architecture, and archaeology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/9>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Dance is a performing art form consisting of sequences of movement, either improvised or purposefully selected. ", "Dance" ;
+  rdfs:comment "Dance is a performing art form consisting of sequences of movement, either improvised or purposefully selected. " ;
   skos:definition "Dance is a performing art form consisting of sequences of movement, either improvised or purposefully selected. " ;
   skos:prefLabel "Dance" ;
+  rdfs:label "Dance" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/26>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "History is the study of the past.", "History" ;
+  rdfs:comment "History is the study of the past." ;
   skos:definition "History is the study of the past." ;
   skos:prefLabel "History" ;
+  rdfs:label "History" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/39>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "An industry is a branch of an economy that produces a closely-related set of raw materials, goods, or services.", "Industry" ;
+  rdfs:comment "An industry is a branch of an economy that produces a closely-related set of raw materials, goods, or services." ;
   skos:definition "An industry is a branch of an economy that produces a closely-related set of raw materials, goods, or services." ;
   skos:prefLabel "Industry" ;
+  rdfs:label "Industry" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/3>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Architecture is both the process and the product of planning, designing, and constructing buildings or other structures.", "Architecture" ;
+  rdfs:comment "Architecture is both the process and the product of planning, designing, and constructing buildings or other structures." ;
   skos:definition "Architecture is both the process and the product of planning, designing, and constructing buildings or other structures." ;
   skos:prefLabel "Architecture" ;
+  rdfs:label "Architecture" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/20>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Earth science or geoscience includes all fields of natural science related to planet Earth.", "Earth" ;
+  rdfs:comment "Earth science or geoscience includes all fields of natural science related to planet Earth." ;
   skos:definition "Earth science or geoscience includes all fields of natural science related to planet Earth." ;
   skos:prefLabel "Earth" ;
+  rdfs:label "Earth" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/61>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Time is the continued sequence of existence and events that occurs in an apparently irreversible succession from the past, through the present, into the future.", "Time" ;
+  rdfs:comment "Time is the continued sequence of existence and events that occurs in an apparently irreversible succession from the past, through the present, into the future." ;
   skos:definition "Time is the continued sequence of existence and events that occurs in an apparently irreversible succession from the past, through the present, into the future." ;
   skos:prefLabel "Time" ;
+  rdfs:label "Time" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/33>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Recreation is an activity of leisure, one that is pursued for enjoyment or pleasure.", "Recreation" ;
+  rdfs:comment "Recreation is an activity of leisure, one that is pursued for enjoyment or pleasure." ;
   skos:definition "Recreation is an activity of leisure, one that is pursued for enjoyment or pleasure." ;
   skos:prefLabel "Recreation" ;
+  rdfs:label "Recreation" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/46>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Nobility is a social class normally ranked immediately below royalty and found in some societies that have a formal aristocracy. ", "Royalty and nobility" ;
+  rdfs:comment "Nobility is a social class normally ranked immediately below royalty and found in some societies that have a formal aristocracy. " ;
   skos:definition "Nobility is a social class normally ranked immediately below royalty and found in some societies that have a formal aristocracy. " ;
   skos:prefLabel "Royalty and nobility" ;
+  rdfs:label "Royalty and nobility" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/18>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "Biology is the scientific study of life.", "Biology" ;
+  rdfs:comment "Biology is the scientific study of life." ;
   skos:definition "Biology is the scientific study of life." ;
   skos:prefLabel "Biology" ;
+  rdfs:label "Biology" ;
   a skos:Concept .
 
 <https://w3id.org/eke/kds/59>
   skos:inScheme <https://w3id.org/eke/kds> ;
-  rdfs:label "The union of Engineering and Technology domains.", "Engineering, Technology" ;
+  rdfs:comment "The union of Engineering and Technology domains." ;
   skos:definition "The union of Engineering and Technology domains." ;
   skos:prefLabel "Engineering, Technology" ;
+  rdfs:label "Engineering, Technology" ;
   a skos:Concept .
