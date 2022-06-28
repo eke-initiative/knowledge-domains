@@ -12,9 +12,6 @@
   dc:issued "2022-06-28"^^xsd:date ;
   dc:modified "2022-06-28"^^xsd:date .
 
-<https://w3id.org/eke/kds/40>@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
 <https://w3id.org/eke/kds/40>
   skos:inScheme <https://w3id.org/eke/kds> ;
   rdfs:comment "Law intended as the study of systems of rules created and enforced through social or governmental institutions to regulate behavior." ;
